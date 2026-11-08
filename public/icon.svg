@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#064e3b" />
+      <stop offset="50%" stop-color="#022c22" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde68a" />
+      <stop offset="50%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)" />
+  <circle cx="256" cy="256" r="210" stroke="url(#goldGrad)" stroke-width="4" stroke-opacity="0.3" stroke-dasharray="8 8" />
+  
+  <!-- Mosque Dome Silhouette -->
+  <path d="M256 120 C256 120 220 180 200 230 C185 265 190 290 190 330 L322 330 C322 290 327 265 312 230 C292 180 256 120 256 120 Z" fill="url(#emeraldGrad)" fill-opacity="0.8" />
+  
+  <!-- Crescent & Star -->
+  <path d="M256 80 A24 24 0 1 0 274 116 A18 18 0 1 1 256 80 Z" fill="url(#goldGrad)" />
+  <circle cx="270" cy="95" r="3.5" fill="#fde68a" />
+
+  <!-- Radio Waves -->
+  <path d="M150 200 A150 150 0 0 1 362 200" stroke="url(#goldGrad)" stroke-width="8" stroke-linecap="round" fill="none" opacity="0.9" />
+  <path d="M120 170 A190 190 0 0 1 392 170" stroke="url(#goldGrad)" stroke-width="7" stroke-linecap="round" fill="none" opacity="0.6" />
+  <path d="M90 140 A230 230 0 0 1 422 140" stroke="url(#goldGrad)" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.35" />
+
+  <!-- Mosque Minarets and Base -->
+  <rect x="175" y="270" width="16" height="60" rx="3" fill="#10b981" />
+  <rect x="321" y="270" width="16" height="60" rx="3" fill="#10b981" />
+  <rect x="170" y="325" width="172" height="15" rx="4" fill="url(#goldGrad)" />
+  
+  <!-- Audio Waveform Center -->
+  <rect x="226" y="260" width="8" height="40" rx="4" fill="#ffffff" opacity="0.9" />
+  <rect x="242" y="240" width="8" height="60" rx="4" fill="url(#goldGrad)" />
+  <rect x="258" y="230" width="8" height="70" rx="4" fill="#ffffff" />
+  <rect x="274" y="245" width="8" height="55" rx="4" fill="url(#goldGrad)" />
+  <rect x="290" y="265" width="8" height="35" rx="4" fill="#ffffff" opacity="0.9" />
+
+  <!-- App Title in Kufic/Arabic style -->
+  <text x="256" y="390" text-anchor="middle" fill="#ffffff" font-family="system-ui, sans-serif" font-weight="bold" font-size="34" letter-spacing="1">أثير الهدى</text>
+  <text x="256" y="425" text-anchor="middle" fill="#fde68a" font-family="system-ui, sans-serif" font-weight="500" font-size="20" opacity="0.9">راديو مباشر • إسلامي وإخباري</text>
+</svg>
